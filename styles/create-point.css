@@ -1,7 +1,9 @@
 #page-create-point {
-    width: 90px ;
+    width: 90% ;
     max-width: 1100px;
-    margin: 0 auto;
+    
+  
+
 
 }
 
@@ -23,7 +25,7 @@
 }
     
 #page-create-point header a span{
-    margin-right: 16px;
+    margin-right: 8px;
     
     background-image: url('../assets/arrow-left.svg');
 
@@ -31,4 +33,18 @@
 
     width: 20px; 
     height: 24px;
+}
+
+form {
+    background-color: #fff;
+    
+    margin: 80px auto;
+    padding: 64px;
+    
+    border-radius: 8px;
+
+    max-width: 730px;
+
+    
+
 }

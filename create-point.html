@@ -3,11 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criar um ponto de coleta</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300;700&display=swap"
         rel="stylesheet">
 
@@ -31,7 +30,51 @@
         </header>
 
         <form action="">
-            <h1>Cadastro do Ponto de coleta</h1>
+            <h1>Cadastro do ponto de coleta</h1>
+
+            <fieldset>
+                <legend>
+                    <h2>Dados da entidade</h2>
+                </legend>
+
+                <div class="field">
+                    <label for="name">Nome da entidade:</label>
+                    <input type="text" name="name">
+                </div>
+
+                <div class="field-group">
+                    <div class="field">
+                        <label for="address">Endereço:</label>
+                        <input type="text" name="address">
+                    </div>
+                    <div class="adress-comp">
+                        <label for="number">Número/Comp.</label>
+                        <input type="text" name="adress-comp">
+                    </div>
+                </div>
+
+                <div class="field-group">
+                    <div class="field">
+                        <label for="estado">Estado:</label>
+                        <select name="uf" id=""></select>
+                    </div>
+                    <div class="city">
+                        <label for="state">Cidade:</label>
+
+                    </div>
+                </div>
+
+            </fieldset>
+            <legend>
+                <h2>Itens de coleta</h2>
+            </legend>
+            outra coisa
+            <fieldset>
+
+
+            </fieldset>
+
+            <button type="submit">Cadastrar ponto de coleta</button>
 
         </form>
 
